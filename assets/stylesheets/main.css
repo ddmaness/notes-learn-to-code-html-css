@@ -255,6 +255,13 @@ Home
 	font-weight: 100;	
 }
 
+.teaser img{
+	border-radius: 5px;
+	display: block;
+	max-width:100%;
+	margin-bottom: 22px;
+}
+
 /*
 ==========================================
 
@@ -267,12 +274,39 @@ Speakers
 	border: 1px solid #dfe2e5;
 	border-radius: 5px;
 	margin-top: 88px;
-	padding: 22px 0;
+	padding-bottom: 22px;
 	text-align: center;
+}
+
+.speaker-info img {
+	border-radius: 50%;
+	height: 130px;
+	margin: -66px 0 22px 0;
+	vertical-align: top;
 }
 
 .speaker {
 	margin-bottom: 44px;
+}
+
+/*
+==========================================
+
+Venue
+
+==========================================
+*/
+
+.venue-theater {
+	margin-bottom:66px;
+}
+
+.venue-hotel {
+	margin-bottom: 22px;
+}
+
+.venue-map {
+	height: 264px;
 }
 
 /*
